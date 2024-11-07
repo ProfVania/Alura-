@@ -119,6 +119,9 @@ body {
 
 .rodape {
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .rodape__lista {
@@ -126,18 +129,24 @@ body {
     list-style-type: none;
     color: var(--branco-principal);
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .rodape__texto {
     color: var(--cinza-secundario);
-    margin-top: 2em;
-    
+    margin-top: 2em;  
 }
 
 .lista__link {
     margin-left: 1em;
     margin-top: 2em;
     font-size: 16px;
-    color: var(--branco-principal);
     text-align: center;
+}
+
+.link {
+    color: var(--branco-principal);
+    text-decoration: none;
 }
